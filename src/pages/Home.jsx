@@ -111,22 +111,6 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* Video Section */}
-            <section className="bg-white py-8">
-                <div className="container mx-auto px-4 md:px-6">
-                    <div className="max-w-[850px] mx-auto overflow-hidden shadow-2xl relative" style={{ paddingTop: '30%' /* Significantly reduced height */ }}>
-                        <iframe
-                            className="absolute top-0 left-0 w-full h-full"
-                            src="https://www.youtube.com/embed/_HnEXM_38OA?si=K_JcAoyLSfR0RxG4"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin"
-                            allowFullScreen
-                        ></iframe>
-                    </div>
-                </div>
-            </section>
 
             {/* Advanced About Section */}
             <section className="relative py-24 overflow-hidden bg-[#f5f8fa]">
@@ -243,7 +227,7 @@ const Home = () => {
             </section>
 
             {/* Gallery Section */}
-            <section className="py-24 bg-white">
+            <section className="pb-24 bg-white">
                 <div className="container mx-auto px-4 md:px-8 max-w-[1200px]">
                     <div className="text-center mb-16">
                         <h2 className="text-5xl md:text-6xl font-serif mb-6" style={{ fontFamily: "Georgia, serif" }}>

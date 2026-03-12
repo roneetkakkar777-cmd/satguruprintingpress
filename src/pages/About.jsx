@@ -67,24 +67,6 @@ const About = () => {
             </div>
 
 
-
-            {/* YouTube Video Section */}
-            <section className="pb-24">
-                <div className="container mx-auto px-4 md:px-6">
-                    <div className="max-w-[850px] mx-auto overflow-hidden shadow-2xl relative" style={{ paddingTop: '30%' }}>
-                        <iframe
-                            className="absolute top-0 left-0 w-full h-full"
-                            src="https://www.youtube.com/embed/_HnEXM_38OA?si=kb-TkC_J1-MWkUAx"
-                            title="YouTube video player"
-                            frameBorder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                            referrerPolicy="strict-origin-when-cross-origin"
-                            allowFullScreen
-                        ></iframe>
-                    </div>
-                </div>
-            </section>
-
             {/* Call to Action Final */}
             <section className="relative py-32 bg-gray-900 overflow-hidden">
                 {/* Background Image */}
