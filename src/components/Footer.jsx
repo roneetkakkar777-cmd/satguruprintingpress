@@ -61,10 +61,9 @@ const Footer = () => {
                     </div>
                 </div>
 
-                {/* Bottom Bar */}
                 <div className="border-t border-gray-700/50 pt-8 flex justify-center text-[13.5px] text-gray-300 text-center">
                     <p>
-                        This Website is owned and managed by | <span className="text-[#E67E52]">SATGURU</span> <span className="text-[#89c5c5] font-bold">PRINTING PRESS</span>
+                        © {currentYear} | This Website is owned and managed by | <span className="text-[#E67E52]">SATGURU</span> <span className="text-[#89c5c5] font-bold">PRINTING PRESS</span>
                     </p>
                 </div>
             </div>

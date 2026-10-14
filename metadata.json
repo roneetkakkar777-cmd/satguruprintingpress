@@ -1,0 +1,7 @@
+{
+  "name": "Satguru Printing Press",
+  "description": "High-quality printing press services in Indirapuram, Ghaziabad - wedding cards, visiting cards, vinyl printing, flex boards, and marketing materials.",
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

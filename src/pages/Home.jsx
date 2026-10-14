@@ -1,23 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiCheckCircle, FiStar, FiArrowRight } from 'react-icons/fi';
+import { FiStar } from 'react-icons/fi';
 
 const Home = () => {
-    const services = [
-        { title: "Wedding Cards", desc: "Elegant, customized wedding cards with beautiful designs and premium quality." },
-        { title: "Visiting Cards", desc: "Premium-quality visiting cards with elegant designs and sharp printing." },
-        { title: "T-Shirt Printing", desc: "Custom T-shirt printing with vibrant designs and high-quality prints." },
-        { title: "Vinyl Printing", desc: "Durable and weather-resistant vinyl prints for banners, hoardings, and signages." },
-        { title: "Pamphlets & Flyers", desc: "High-resolution mass printing for effective local marketing campaigns." },
-        { title: "Bill Books", desc: "Custom bill books, letterheads, and stationery for professional branding." },
-    ];
-
-    const testimonials = [
-        { name: "Darshan Kumar", rating: 5, text: "Satguru Printing Press delivers excellent quality, timely service, and vibrant prints. Highly satisfied with their professionalism and attention to detail!" },
-        { name: "Rohan Singh", rating: 4, text: "Amazing service! Satguru Printing Press delivers high-quality prints, timely delivery, and great customer support. Highly recommended for all printing needs!" },
-        { name: "Aditya Sharma", rating: 5, text: "Satguru Printing Press exceeded my expectations! High-quality prints, timely delivery, and excellent service. Highly recommended!" },
-    ];
-
     return (
         <div className="pt-20">
             {/* Hero Section */}
